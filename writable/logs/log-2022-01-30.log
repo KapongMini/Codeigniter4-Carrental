@@ -1,0 +1,312 @@
+CRITICAL - 2022-01-30 08:40:01 --> Cannot use object of type stdClass as array
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include()
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/manag...', Array, true)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(237): view('dashboard/manag...', Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+CRITICAL - 2022-01-30 08:44:08 --> Cannot use object of type stdClass as array
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include()
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/manag...', Array, true)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(237): view('dashboard/manag...', Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+CRITICAL - 2022-01-30 08:44:31 --> Cannot use object of type stdClass as array
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include()
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/manag...', Array, true)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(237): view('dashboard/manag...', Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+ERROR - 2022-01-30 08:49:27 --> Unknown column 'tblbrands.BrandName' in 'field list'
+CRITICAL - 2022-01-30 08:49:27 --> Unknown column 'tblbrands.BrandName' in 'field list'
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tblvehi...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblvehi...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblvehi...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `tblvehi...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(232): App\Models\VehiclesModel->getAll()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-01-30 08:55:42 --> Unknown column 'tblbrands.BrandName' in 'field list'
+CRITICAL - 2022-01-30 08:55:42 --> Unknown column 'tblbrands.BrandName' in 'field list'
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tblvehi...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblvehi...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblvehi...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `tblvehi...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(232): App\Models\VehiclesModel->getAll()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-01-30 08:55:44 --> Unknown column 'tblbrands.BrandName' in 'field list'
+CRITICAL - 2022-01-30 08:55:44 --> Unknown column 'tblbrands.BrandName' in 'field list'
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tblvehi...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblvehi...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblvehi...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `tblvehi...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(232): App\Models\VehiclesModel->getAll()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-01-30 08:55:51 --> Unknown column 'tblbrands.BrandName' in 'field list'
+CRITICAL - 2022-01-30 08:55:51 --> Unknown column 'tblbrands.BrandName' in 'field list'
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tblvehi...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblvehi...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblvehi...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `tblvehi...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(232): App\Models\VehiclesModel->getAll()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-01-30 08:56:20 --> Cannot use object of type stdClass as array
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include()
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/manag...', Array, true)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(237): view('dashboard/manag...', Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+CRITICAL - 2022-01-30 08:59:55 --> Cannot use object of type stdClass as array
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include()
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/manag...', Array, true)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(237): view('dashboard/manag...', Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+CRITICAL - 2022-01-30 08:59:59 --> Cannot use object of type stdClass as array
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include()
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/manag...', Array, true)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(237): view('dashboard/manag...', Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+CRITICAL - 2022-01-30 09:00:48 --> Cannot use object of type stdClass as array
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include()
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/manag...', Array, true)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(237): view('dashboard/manag...', Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+CRITICAL - 2022-01-30 09:58:03 --> Trying to access array offset on value of type null
+#0 D:\Book-py3\PHP\project\test2\app\Views\dashboard\edit_brand.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Book-py3\\PHP...', 70, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/edit_...', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(69): view('dashboard/edit_...', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_brand('img', 'ts-avatar.jpg')
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-01-30 10:06:56 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:07:16 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:09:13 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:11:44 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:14:02 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:18:43 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:18:53 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:19:33 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:19:42 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:20:20 --> Array to string conversion
+#0 D:\Book-py3\PHP\project\test2\app\Views\dashboard\manage_vehicles.php(99): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Book-py3\\PHP...', 99, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/manag...', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(237): view('dashboard/manag...', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-01-30 10:21:06 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:23:53 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:23:54 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:23:55 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:35:01 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:38:19 --> Invalid file: students/edit_vehicle.php
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('students/edit_v...')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('students/edit_v...', Array, true)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(246): view('students/edit_v...', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle('2')
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}
+CRITICAL - 2022-01-30 10:38:47 --> Invalid file: students/edit_vehicle.php
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('students/edit_v...')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('students/edit_v...', Array, true)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(246): view('students/edit_v...', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle('2')
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}
+CRITICAL - 2022-01-30 10:39:33 --> Invalid file: students/edit_vehicle.php
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('students/edit_v...')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('students/edit_v...', Array, true)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(246): view('students/edit_v...', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle('3')
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}
+CRITICAL - 2022-01-30 10:40:21 --> Too few arguments to function App\Controllers\Dashboard::edit_vehicle(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-01-30 10:41:07 --> Invalid file: students/edit_vehicle.php
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('students/edit_v...')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('students/edit_v...', Array, true)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(246): view('students/edit_v...', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle('2')
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}
+CRITICAL - 2022-01-30 10:41:59 --> Invalid file: students/edit_vehicle.php
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('students/edit_v...')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('students/edit_v...', Array, true)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(246): view('students/edit_v...', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_vehicle('2')
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}

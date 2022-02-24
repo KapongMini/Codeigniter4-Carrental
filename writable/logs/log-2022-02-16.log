@@ -1,0 +1,72 @@
+CRITICAL - 2022-02-16 02:55:38 --> Too few arguments to function App\Controllers\front\Profile_setting::update(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-16 02:56:06 --> There is no data to update.
+#0 D:\Book-py3\PHP\project\test2\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Book-py3\PHP\project\test2\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\Book-py3\PHP\project\test2\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): CodeIgniter\Model->update(Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+ERROR - 2022-02-16 02:56:27 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-02-16 02:56:27 --> Illegal parameter data types varchar and row for operation '='
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbluser...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbluser...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbluser...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tbluser...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\UserModel.php(57): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): App\Models\UserModel->setupdate(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-02-16 03:14:16 --> Call to a member function set() on null
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(58): App\Models\UserModel->updateEmpFirstAndLastName(18, 'joyop', '02096316032', 'pongkst44@gmail...', '', '', '', '')
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-16 03:15:02 --> Call to a member function set() on null
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(58): App\Models\UserModel->updateEmpFirstAndLastName(18, 'joyop', '02096316032', 'pongkst44@gmail...', '', '', '', '')
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-16 03:20:52 --> Argument 1 passed to App\Models\UserModel::setupdate() must be of the type int, null given, called in D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php on line 59
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(59): App\Models\UserModel->setupdate(NULL, 'joyop', '02096316032', 'pongkst44@gmail...', '', '', '', '')
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-16 03:24:42 --> Call to a member function set() on null
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(59): App\Models\UserModel->updateEmpFirstAndLastName(18, 'joyop', '02096316032', 'pongkst44@gmail...', '', '', '', '')
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-16 03:25:30 --> Call to a member function set() on null
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(59): App\Models\UserModel->updateEmpFirstAndLastName(18, 'joyhsieifj', '02096316032', 'pongkst44@gmail...', '', '', '', '')
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}

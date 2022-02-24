@@ -1,0 +1,271 @@
+CRITICAL - 2022-02-11 08:03:42 --> Too few arguments to function App\Controllers\front\Vedetails::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 08:04:54 --> Too few arguments to function App\Controllers\front\Vedetails::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 08:05:29 --> Too few arguments to function App\Controllers\front\Vedetails::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 08:06:44 --> Too few arguments to function App\Controllers\front\Vedetails::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 08:23:17 --> Too few arguments to function App\Controllers\front\Vedetails::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 08:31:26 --> Too few arguments to function App\Controllers\front\Vedetails::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 08:44:45 --> Cannot use object of type stdClass as array
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include()
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\front\Home.php(29): view('home', Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Home->index()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Home))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-11 08:47:33 --> Undefined variable: id_vehicle
+#0 D:\Book-py3\PHP\project\test2\app\Views\home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Book-py3\\PHP...', 84, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\Home.php(29): view('home', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Home->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Home))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-11 09:07:27 --> Too few arguments to function App\Controllers\front\Vedetails::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 09:44:29 --> Too few arguments to function App\Controllers\front\Vedetails::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 10:11:29 --> Call to undefined method stdClass::intval()
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include()
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\front\Home.php(29): view('home', Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Home->index()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Home))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+CRITICAL - 2022-02-11 10:11:31 --> Call to undefined method stdClass::intval()
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include()
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\front\Home.php(29): view('home', Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Home->index()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Home))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+CRITICAL - 2022-02-11 10:27:07 --> Too few arguments to function App\Controllers\front\Vedetails::Vedetailses(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->Vedetailses()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 10:27:21 --> Too few arguments to function App\Controllers\front\Vedetails::Vedetailses(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->Vedetailses()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 10:27:23 --> Too few arguments to function App\Controllers\front\Vedetails::Vedetailses(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->Vedetailses()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 10:27:24 --> Too few arguments to function App\Controllers\front\Vedetails::Vedetailses(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->Vedetailses()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 10:33:30 --> Too few arguments to function App\Controllers\front\Vedetails::Vedetailses(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->Vedetailses()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 10:35:39 --> Too few arguments to function App\Controllers\front\Vedetails::Vedetailses(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->Vedetailses()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 10:37:16 --> Too few arguments to function App\Controllers\front\Vedetails::Vedetailses(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Vedetails->Vedetailses()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Vedetails))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 10:52:20 --> Undefined property: stdClass::$id_vehicless
+#0 D:\Book-py3\PHP\project\test2\app\Views\home.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 84, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\Home.php(29): view('home', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Home->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Home))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-11 11:25:00 --> Too few arguments to function App\Controllers\front\sss::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 11:25:33 --> Too few arguments to function App\Controllers\front\sss::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 11:26:38 --> Too few arguments to function App\Controllers\front\sss::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 11:27:15 --> Too few arguments to function App\Controllers\front\sss::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 11:27:49 --> Too few arguments to function App\Controllers\front\sss::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 11:28:24 --> Too few arguments to function App\Controllers\front\sss::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 11:35:51 --> Undefined variable: row
+#0 D:\Book-py3\PHP\project\test2\app\Views\vedetailses.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Book-py3\\PHP...', 53, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('vedetailses', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\sss.php(28): view('vedetailses', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-11 11:36:51 --> Trying to get property 'Vimage1' of non-object
+#0 D:\Book-py3\PHP\project\test2\app\Views\vedetailses.php(53): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Book-py3\\PHP...', 53, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('vedetailses', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\sss.php(28): view('vedetailses', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-11 11:38:34 --> Trying to get property 'Vimage1' of non-object
+#0 D:\Book-py3\PHP\project\test2\app\Views\vedetailses.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Book-py3\\PHP...', 54, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('vedetailses', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\sss.php(28): view('vedetailses', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-11 11:39:01 --> Trying to get property 'Vimage5' of non-object
+#0 D:\Book-py3\PHP\project\test2\app\Views\vedetailses.php(57): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Book-py3\\PHP...', 57, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('vedetailses', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\sss.php(28): view('vedetailses', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-11 11:49:06 --> Too few arguments to function App\Controllers\front\sss::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 11:49:25 --> Too few arguments to function App\Controllers\front\sss::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-11 11:49:26 --> Too few arguments to function App\Controllers\front\sss::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\sss->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\sss))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}

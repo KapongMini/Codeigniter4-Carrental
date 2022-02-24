@@ -1,0 +1,15 @@
+CRITICAL - 2022-02-23 10:52:01 --> Object of class App\Models\UserModel could not be converted to string
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Home->forgot()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Home))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-23 10:53:40 --> Call to undefined method App\Models\UserModel::forgot
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\front\Home.php(287): CodeIgniter\Model->__call('forgot', Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Home->forgot()
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Home))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}

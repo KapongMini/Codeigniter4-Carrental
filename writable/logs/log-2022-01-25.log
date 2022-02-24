@@ -1,0 +1,64 @@
+CRITICAL - 2022-01-25 07:55:34 --> Undefined variable: Brand_name
+#0 D:\Book-py3\PHP\project\test2\app\Views\dashboard\post_avehical.php(83): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Book-py3\\PHP...', 83, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/post_...', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(113): view('dashboard/post_...', Array, Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->post_avehical()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-01-25 08:02:27 --> Trying to access array offset on value of type null
+#0 D:\Book-py3\PHP\project\test2\app\Views\dashboard\edit_brand.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Book-py3\\PHP...', 70, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/edit_...', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(68): view('dashboard/edit_...', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_brand('img', 'ts-avatar.jpg')
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-01-25 08:14:42 --> Argument 1 passed to CodeIgniter\BaseModel::findAll() must be of the type int, string given, called in D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php on line 51
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(51): CodeIgniter\BaseModel->findAll('ASE', '1')
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_brands()
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-01-25 08:45:06 --> Undefined variable: values
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(116): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Book-py3\\PHP...', 116, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->post_avehical()
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-01-25 08:45:43 --> Trying to access array offset on value of type null
+#0 D:\Book-py3\PHP\project\test2\app\Views\dashboard\edit_brand.php(70): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Book-py3\\PHP...', 70, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/edit_...', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(68): view('dashboard/edit_...', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->edit_brand('img', 'ts-avatar.jpg')
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-01-25 12:31:40 --> Array to string conversion
+#0 D:\Book-py3\PHP\project\test2\app\Views\dashboard\manage_vehicles.php(100): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Book-py3\\PHP...', 100, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/manag...', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Dashboard.php(237): view('dashboard/manag...', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Dashboard->manage_vehicles()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}

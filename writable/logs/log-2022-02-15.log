@@ -1,0 +1,267 @@
+CRITICAL - 2022-02-15 10:46:39 --> Trying to get property 'Fullname' of non-object
+#0 D:\Book-py3\PHP\project\test2\app\Views\profile.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Book-py3\\PHP...', 95, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('profile', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(28): view('profile', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-15 10:47:09 --> Trying to get property 'FullName' of non-object
+#0 D:\Book-py3\PHP\project\test2\app\Views\profile.php(95): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Book-py3\\PHP...', 95, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('profile', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(28): view('profile', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-15 10:48:51 --> Illegal string offset 'FullName'
+#0 D:\Book-py3\PHP\project\test2\app\Views\profile.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Book-py3\\PHP...', 95, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('profile', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(28): view('profile', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-15 10:48:52 --> Illegal string offset 'FullName'
+#0 D:\Book-py3\PHP\project\test2\app\Views\profile.php(95): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'D:\\Book-py3\\PHP...', 95, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('profile', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(28): view('profile', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-15 10:51:06 --> Undefined variable: result
+#0 D:\Book-py3\PHP\project\test2\app\Views\profile.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Book-py3\\PHP...', 93, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('profile', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(28): view('profile', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-15 10:51:07 --> Undefined variable: result
+#0 D:\Book-py3\PHP\project\test2\app\Views\profile.php(93): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Book-py3\\PHP...', 93, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('profile', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(28): view('profile', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-15 11:01:53 --> Undefined index: EmailId
+#0 D:\Book-py3\PHP\project\test2\app\Views\profile.php(123): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 123, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('profile', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(28): view('profile', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->index()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-15 11:21:31 --> There is no data to update.
+#0 D:\Book-py3\PHP\project\test2\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Book-py3\PHP\project\test2\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\Book-py3\PHP\project\test2\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(45): CodeIgniter\Model->update(Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+CRITICAL - 2022-02-15 11:30:09 --> Too few arguments to function App\Controllers\front\Profile_setting::update(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-15 11:31:56 --> Too few arguments to function App\Controllers\front\Profile_setting::update(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-15 11:35:06 --> There is no data to update.
+#0 D:\Book-py3\PHP\project\test2\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\Book-py3\PHP\project\test2\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 D:\Book-py3\PHP\project\test2\system\Model.php(646): CodeIgniter\BaseModel->update(Array, NULL)
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): CodeIgniter\Model->update(Array)
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+ERROR - 2022-02-15 11:41:10 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-02-15 11:41:10 --> Illegal parameter data types varchar and row for operation '='
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\UserModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): App\Models\UserModel->setupdate(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-02-15 11:45:18 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-02-15 11:45:18 --> Illegal parameter data types int and row for operation '='
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\UserModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): App\Models\UserModel->setupdate(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-02-15 11:45:26 --> Illegal parameter data types int and row for operation '='
+CRITICAL - 2022-02-15 11:45:26 --> Illegal parameter data types int and row for operation '='
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\UserModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): App\Models\UserModel->setupdate(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-02-15 11:52:46 --> Too few arguments to function App\Controllers\front\Profile_setting::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-15 11:53:17 --> Too few arguments to function App\Controllers\front\Profile_setting::index(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->index()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+ERROR - 2022-02-15 11:54:46 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-02-15 11:54:46 --> Illegal parameter data types varchar and row for operation '='
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\UserModel.php(57): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): App\Models\UserModel->setupdate(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-02-15 11:56:51 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-02-15 11:56:51 --> Illegal parameter data types varchar and row for operation '='
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbluser...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbluser...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbluser...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tbluser...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\UserModel.php(57): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): App\Models\UserModel->setupdate(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-02-15 11:56:56 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-02-15 11:56:56 --> Illegal parameter data types varchar and row for operation '='
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbluser...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbluser...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbluser...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tbluser...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\UserModel.php(57): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): App\Models\UserModel->setupdate(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-02-15 11:57:04 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-02-15 11:57:04 --> Illegal parameter data types varchar and row for operation '='
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbluser...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbluser...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbluser...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tbluser...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\UserModel.php(57): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): App\Models\UserModel->setupdate(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-02-15 11:57:27 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-02-15 11:57:27 --> Illegal parameter data types varchar and row for operation '='
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbluser...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbluser...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbluser...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tbluser...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\UserModel.php(51): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): App\Models\UserModel->setupdate(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-02-15 12:06:34 --> Illegal parameter data types varchar and row for operation '='
+CRITICAL - 2022-02-15 12:06:34 --> Illegal parameter data types varchar and row for operation '='
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('UPDATE `tbluser...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('UPDATE `tbluser...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('UPDATE `tbluser...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1901): CodeIgniter\Database\BaseConnection->query('UPDATE `tbluser...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\UserModel.php(57): CodeIgniter\Database\BaseBuilder->update()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Profile_setting.php(57): App\Models\UserModel->setupdate(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-02-15 12:10:36 --> Too few arguments to function App\Controllers\front\Profile_setting::update(), 0 passed in D:\Book-py3\PHP\project\test2\system\CodeIgniter.php on line 824 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Profile_setting->update()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Profile_setting))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}

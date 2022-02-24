@@ -1,0 +1,80 @@
+CRITICAL - 2022-01-20 06:37:35 --> Invalid file: auth/login.php
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('auth/login.php')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('auth/login', Array, true)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\Admin.php(122): view('auth/login', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Admin->check()
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}
+CRITICAL - 2022-01-20 07:11:28 --> Invalid file: /admin.php
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/admin.php')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('/admin', Array, true)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\Admin.php(122): view('/admin', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Admin->check()
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}
+CRITICAL - 2022-01-20 07:11:53 --> Invalid file: /login.php
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/login.php')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('/login', Array, true)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\Admin.php(122): view('/login', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Admin->check()
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}
+CRITICAL - 2022-01-20 07:17:30 --> Trying to access array offset on value of type null
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Admin.php(132): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Book-py3\\PHP...', 132, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Admin->check()
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-01-20 07:23:12 --> Undefined property: App\Controllers\Admin::$load
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Admin.php(122): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 122, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Admin->check()
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-01-20 07:24:27 -->  route cannot be found while reverse-routing.
+#0 D:\Book-py3\PHP\project\test2\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\Admin.php(122): redirect('admin/login', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Admin->check()
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Admin))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}
+CRITICAL - 2022-01-20 21:23:18 --> Class 'App\Controllers\front\BaseController' not found
+#0 D:\Book-py3\PHP\project\test2\system\Autoloader\Autoloader.php(264): include_once()
+#1 D:\Book-py3\PHP\project\test2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-01-20 21:23:20 --> Class 'App\Controllers\front\BaseController' not found
+#0 D:\Book-py3\PHP\project\test2\system\Autoloader\Autoloader.php(264): include_once()
+#1 D:\Book-py3\PHP\project\test2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#4 [internal function]: spl_autoload_call('App\\Controllers...')
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}

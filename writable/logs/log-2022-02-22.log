@@ -1,0 +1,87 @@
+CRITICAL - 2022-02-22 04:37:10 --> Invalid file: Change_password.php
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('Change_password...')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('Change_password', Array, true)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\front\Change_password.php(70): view('Change_password', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Change_password->change()
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Change_password))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}
+CRITICAL - 2022-02-22 04:38:21 --> Undefined variable: userdata
+#0 D:\Book-py3\PHP\project\test2\app\Views\includes\header.php(55): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Book-py3\\PHP...', 55, Array)
+#1 D:\Book-py3\PHP\project\test2\app\Views\update_password.php(53): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#3 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('update_password', Array, true)
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Change_password.php(70): view('update_password', Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Change_password->change()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Change_password))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-02-22 04:39:58 --> Undefined index: email
+#0 D:\Book-py3\PHP\project\test2\app\Views\includes\forgotpassword.php(4): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 4, Array)
+#1 D:\Book-py3\PHP\project\test2\app\Views\update_password.php(142): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#3 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('update_password', Array, true)
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Change_password.php(73): view('update_password', Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Change_password->change()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Change_password))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-02-22 04:41:05 --> include(includes/forgotpassword.php): failed to open stream: No such file or directory
+#0 D:\Book-py3\PHP\project\test2\app\Views\update_password.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(include...', 'D:\\Book-py3\\PHP...', 142, Array)
+#1 D:\Book-py3\PHP\project\test2\app\Views\update_password.php(142): include()
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#3 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('update_password', Array, true)
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Change_password.php(73): view('update_password', Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Change_password->change()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Change_password))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-02-22 04:53:55 --> Cannot use object of type App\Models\UserModel as array
+#0 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Change_password->change()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Change_password))
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#5 {main}
+CRITICAL - 2022-02-22 04:58:11 --> include(includes/forgotpassword.php): failed to open stream: No such file or directory
+#0 D:\Book-py3\PHP\project\test2\app\Views\home.php(201): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(include...', 'D:\\Book-py3\\PHP...', 201, Array)
+#1 D:\Book-py3\PHP\project\test2\app\Views\home.php(201): include()
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#3 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('home', Array, true)
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\front\Home.php(35): view('home', Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Home->index()
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Home))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-02-22 05:01:54 --> Trying to get property 'Password' of non-object
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\front\Change_password.php(84): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Book-py3\\PHP...', 84, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Change_password->change()
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Change_password))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-22 09:19:27 --> Invalid file: dashboard/update_password.php
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/updat...')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('dashboard/updat...', Array, true)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\Update_pass.php(55): view('dashboard/updat...', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Update_pass->index()
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Update_pass))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}
