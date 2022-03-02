@@ -5,6 +5,7 @@ use App\Controllers\BaseController;
 use App\Models\UserModel;
 use App\Controllers;
 use App\Models\BookingModel;
+use App\Models\brandsModel;
 use App\Models\VehiclesModel;
 use CodeIgniter\Controller;
 
@@ -19,18 +20,26 @@ class Vdetails extends BaseController
     public function index($id_vehicle)
     {
         
+        
         $usermodel = new UserModel();
         $Vehiclesmodel= new VehiclesModel();
+        $brand = new brandsModel();
         $loggedUserID = session()->get('loggedUser');
         
+        
         $vehicles = $Vehiclesmodel->vdetails($id_vehicle);
-        $similar = $Vehiclesmodel->similar($id_vehicle);
+       
+        // $_SESSION['brndid'] = $this->request->getpost('bid') ;
+        $bid = $_SESSION['brndid'] ;
+        $similar = $Vehiclesmodel->similar($bid);
+        
         $userdata = $usermodel->find($loggedUserID);
         $data = [
-            'tital' => 'home',
+            'tital' => 'Vehicle_detail',
             'userdata' =>$userdata,
             'vehicles' =>$vehicles,
-            'similar'=>$similar
+            'similar'=>$similar,
+           
         ];
         return view('vehicle_details',$data);
     }
