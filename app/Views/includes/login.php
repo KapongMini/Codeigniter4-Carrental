@@ -37,7 +37,7 @@
       </div>
       <div class="modal-footer text-center">
         <p>ບໍ່ມີບັນຊີບໍ? <a href="#signupform" data-toggle="modal" data-dismiss="modal">ສະໝັກທີ່ນີ້</a></p>
-        <p><a href="#forgotpassword" data-toggle="modal" data-dismiss="modal">Forgot Password ?</a></p>
+        <p><a href="#forgotpassword" data-toggle="modal" data-dismiss="modal">ລືມລະຫັດຜ່ານ ?</a></p>
       </div>
     </div>
   </div>

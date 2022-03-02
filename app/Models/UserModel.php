@@ -94,14 +94,14 @@ class UserModel extends Model
         return $query;
     }
 
-    public function forgottest(int $id,string $ContactNo)
+    public function forgottest(string $email,string $ContactNo)
     {
         $builder = $this->db->table("tblusers");
 
         $builder->select('tblusers.*,tblusers.Emailld');
         // $builder->from('tblvehicles');
         //   $builder->join('tblbrands as b', 'b.id=v.VehiclesBrand');
-        $builder->where('Emailld',$id);
+        $builder->where('Emailld',$email);
         $builder->where('ContactNo',$ContactNo);
         $query = $builder->get();
         return $query->getResult();
@@ -114,7 +114,7 @@ class UserModel extends Model
         // }
     }
    
-    public function Updation_Date(int $id,string $newpassword,string $mobile)
+    public function Updation_Date(string $email,string $ContactNo,string $newpassword)
     {
         
 
@@ -124,8 +124,8 @@ class UserModel extends Model
         
         // $builder->from('tblvehicles');
         //   $builder->join('tblbrands as b', 'b.id=v.VehiclesBrand');
-        $builder->where('id',$id);
-        $builder->where('ContactNo',$mobile);
+        $builder->where('Emailld',$email);
+        $builder->where('ContactNo',$ContactNo);
         $query = $builder->update();
         return $query;
     }

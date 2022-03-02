@@ -89,7 +89,7 @@
 </ul>
 </div>
 <div class="car-title-m">
-<h6><a href="<?= base_url('Vehicle_details/'.$row->id_vehicle) ;?>"><?= $row->Brands; ?>,<?= $row->VehiclesTitle; ?></a></h6>
+<h6><a href="<?= base_url('Vehicle_details/'.$row->id_vehicle) ;?>"><?= $row->Brands; ?> , <?= $row->VehiclesTitle; ?></a></h6>
 <span class="price">$<?= $row->PricePerDay; ?> /ມື້</span> 
 </div>
 <div class="inventory_info_m">
@@ -103,6 +103,7 @@
     </div>
   </div>
 </section>
+
 <!-- /Resent Cat --> 
 
 <!-- Fun Facts-->
@@ -244,6 +245,7 @@
 
   });
 </script>
+
 
 
 </body>

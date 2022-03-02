@@ -13,7 +13,7 @@
             <li><a href="<?= site_url('faq_page') ?>">FAQs</a></li>
             <li><a href="<?= site_url('privacy_page') ?>">ຄວາມເປັນສ່ວນຕົວ</a></li>
           <li><a href="<?= site_url('terms_page') ?>">ເງື່ອນໄຂການນໍາໃຊ້</a></li>
-               <li><a href="admin/">ເຂົ້າສູ່ລະບົບ Admin</a></li>
+               <li><a href="<?= site_url('admin') ?>">ເຂົ້າສູ່ລະບົບ Admin</a></li>
           </ul>
         </div>
 
