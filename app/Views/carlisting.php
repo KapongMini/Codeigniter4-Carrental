@@ -80,24 +80,31 @@
               <p><span><?php echo $vehicles ?> ລາຍການ</span></p>
             </div>
           </div>
+
           <?php
           foreach ($results as $result) {  ?>
             <div class="product-listing-m gray-bg">
-              <div class="product-listing-img"><img src="<?= base_url('back/img/vehicleimages/' . $result->Vimage1); ?>" class="img-responsive" alt="Image" /> </a>
+              <div class="product-listing-img"><img src="<?= base_url('back/img/vehicleimages/' . $result['Vimage1']); ?>" class="img-responsive" alt="Image" /> </a>
               </div>
               <div class="product-listing-content">
-                <h5><a href="<?= base_url('Vehicle_details/' . $result->id_vehicle); ?>"><?= $result->Brands; ?> , <?= $result->VehiclesTitle; ?> </a></h5>
-                <p class="list-price">$<?= $result->PricePerDay; ?> ຕໍ່ມື້</p>
+                <h5><a href="<?= base_url('Vehicle_details/' . $result['id_vehicle']); ?>"><?= $result['Brands']; ?> , <?= $result['VehiclesTitle']; ?> </a></h5>
+                <p class="list-price">$<?= $result['PricePerDay']; ?> ຕໍ່ມື້</p>
                 <ul>
-                  <li><i class="fa fa-user" aria-hidden="true"></i><?= $result->SeatingCapacity; ?> ບ່ອນນັ່ງ</li>
-                  <li><i class="fa fa-calendar" aria-hidden="true"></i><?= $result->ModelYear; ?> model</li>
-                  <li><i class="fa fa-car" aria-hidden="true"></i><?= $result->FuelType; ?></li>
+                  <li><i class="fa fa-user" aria-hidden="true"></i><?= $result['SeatingCapacity']; ?> ບ່ອນນັ່ງ</li>
+                  <li><i class="fa fa-calendar" aria-hidden="true"></i><?= $result['ModelYear']; ?> model</li>
+                  <li><i class="fa fa-car" aria-hidden="true"></i><?= $result['FuelType']; ?></li>
                 </ul>
-                <a href="<?= base_url('Vehicle_details/' . $result->id_vehicle); ?>" class="btn">ເບິ່ງ​ລາຍ​ລະ​ອຽດ <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
+                <a href="<?= base_url('Vehicle_details/' . $result['id_vehicle']); ?>" class="btn">ເບິ່ງ​ລາຍ​ລະ​ອຽດ <span class="angle_arrow"><i class="fa fa-angle-right" aria-hidden="true"></i></span></a>
               </div>
             </div>
+            
           <?php } ?>
+          
+          <?= $pager->links('carlist','Carlist_paggination') ?>
+          
+       
         </div>
+
 
         <!--Side-Bar-->
         <aside class="col-md-3 col-md-pull-9">

@@ -5,8 +5,10 @@ use App\Controllers\BaseController;
 use App\Models\brandsModel;
 use App\Models\UserModel;
 use App\Models\VehiclesModel;
+use CodeIgniter\Controller;
 
-class Car_listing extends BaseController
+
+class Car_listing extends Controller
 {
     public function __construct()
     {
@@ -14,6 +16,7 @@ class Car_listing extends BaseController
     }
     public function index()
     {
+        
         $usermodel = new UserModel();
         $Vehiclesmodel= new VehiclesModel();
         $brandmodel = new brandsModel();
@@ -22,19 +25,28 @@ class Car_listing extends BaseController
         // $data['userdata'] = $usermodel->Userdata($loggedUserID);
         
         $vehicles = $Vehiclesmodel->countrow();
-        $results = $Vehiclesmodel->findCar();
+
+        // $results = $Vehiclesmodel->findCar();
+        // $Vehiclesmodel->findCar();
+        
         $findbrand = $brandmodel->showbrand();
         $findcar2 = $Vehiclesmodel->findCar2();
         
         $userdata = $usermodel->find($loggedUserID);
+        
         $data = [
-            'tital' => 'home',
+            'tital' => 'Car Listing',
             'userdata' =>$userdata,
             'vehicles' =>$vehicles,
-            'results'=>$results,
+            'results'=>$Vehiclesmodel->paginateNews(3, 'carlist'),
             'findbrand'=>$findbrand,
-            'findcar2'=>$findcar2
+            'findcar2'=>$findcar2,
+            'pager' => $Vehiclesmodel->pager,
+           
+            
+            
         ];
+        
         return view('carlisting',$data);
     }
 
@@ -57,7 +69,7 @@ class Car_listing extends BaseController
         
         $userdata = $usermodel->find($loggedUserID);
         $data = [
-            'tital' => 'home',
+            'tital' => 'Car Listing',
             'userdata' =>$userdata,
             'vehicles' =>$vehicles,
             'results'=>$results,
