@@ -72,8 +72,8 @@
 											<th>#</th>
 											<th>Name</th>
 											<th>Vehicle</th>
-											<th>From Date</th>
-											<th>To Date</th>
+											<th>yyyy/dd/mm</th>
+											<th>yyyy/dd/mm</th>
 											<th>Message</th>
 											<th>Status</th>
 											<th>Posting date</th>
