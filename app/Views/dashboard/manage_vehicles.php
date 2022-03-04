@@ -50,11 +50,14 @@
 							<div class="panel-body">
 								<?= csrf_field(); ?>
 								<?php if (!empty(session()->getFlashdata('fail'))) : ?>
-									<div class="alert alert-danger"><?= session()->getFlashdata('fail'); ?></div>
+									<div class="alert alert-warning"><?= session()->getFlashdata('fail'); ?></div>
 								<?php endif; ?>
 
 								<?php if (!empty(session()->getFlashdata('success'))) : ?>
 									<div class="alert alert-info"><?= session()->getFlashdata('success'); ?></div>
+								<?php endif; ?>
+								<?php if (!empty(session()->getFlashdata('delete'))) : ?>
+									<div class="alert alert-danger"><?= session()->getFlashdata('delete'); ?></div>
 								<?php endif; ?>
 								<table id="zctb" class="display table table-striped table-bordered table-hover" cellspacing="0" width="100%">
 									<thead>

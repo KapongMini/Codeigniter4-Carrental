@@ -241,7 +241,7 @@
 											<div class="col-sm-3">
 												<div class="checkbox checkbox-inline">
 													<input type="checkbox" id="leatherseats" name="leatherseats" value="1">
-													<label for="leatherseats"> ບ່ອນນັ່ງຫນັງ </label>
+													<label for="leatherseats">ບ່ອນນັ່ງຫນັງ </label>
 												</div>
 											</div>
 										</div>

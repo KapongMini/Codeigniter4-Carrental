@@ -11,7 +11,7 @@
 
 	<title>Car Rental Portal | Admin Edit Vehicle Info</title>
 
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 	<!-- Font awesome -->
 	<link rel="stylesheet" href="<?= site_url() ?>back/css/font-awesome.min.css">
 	<!-- Sandstone Bootstrap CSS -->
@@ -28,7 +28,7 @@
 	<link rel="stylesheet" href="<?= site_url() ?>back/css/awesome-bootstrap-checkbox.css">
 	<!-- Admin Stye -->
 	<link rel="stylesheet" href="<?= site_url() ?>back/css/style.css">
-	
+
 </head>
 
 <body>
@@ -125,39 +125,40 @@
 
 												<div class="form-group">
 													<div class="col-sm-4 text-center">
-													ຮູບພາບ 1: <br>
-														<img src="<?= base_url('back/img/vehicleimages/' . $row->Vimage1); ?>" width="300" class="img-fluid" height="200"  style="border:solid 1px #000"> <br>
-														<a href="<?= site_url('dashboard/changeimage1/' .$row->id_vehicle)?>"class="text-center d-flex justify-content-center my-2">ປ່ຽນຮູບທີ 1</a>
+														ຮູບພາບ 1: <br>
+														<img src="<?= base_url('back/img/vehicleimages/' . $row->Vimage1); ?>" width="300" class="img-fluid" height="200" style="border:solid 1px #000"> <br>
+														<a href="<?= site_url('dashboard/changeimage1/' . $row->id_vehicle) ?>" class="text-center d-flex justify-content-center my-2">ປ່ຽນຮູບທີ 1</a>
 													</div>
 													<div class="col-sm-4 text-center">
-													ຮູບພາບ 2: <br>
+														ຮູບພາບ 2: <br>
 														<img src="<?= base_url('back/img/vehicleimages/' . $row->Vimage2); ?>" width="300" class="img-fluid" height="200" style="border:solid 1px #000"><br>
-														<a href="<?= site_url('dashboard/changeimage2/' .$row->id_vehicle)?>" class="text-center d-flex justify-content-center my-2">ປ່ຽນຮູບທີ 2</a>
+														<a href="<?= site_url('dashboard/changeimage2/' . $row->id_vehicle) ?>" class="text-center d-flex justify-content-center my-2">ປ່ຽນຮູບທີ 2</a>
 													</div>
 													<div class="col-sm-4 text-center">
-													ຮູບພາບ 3: <br>
+														ຮູບພາບ 3: <br>
 														<img src="<?= base_url('back/img/vehicleimages/' . $row->Vimage3); ?>" width="300" class="img-fluid" height="200" style="border:solid 1px #000"><br>
-														<a href="<?= site_url('dashboard/changeimage3/' .$row->id_vehicle)?>" class="text-center d-flex justify-content-center my-2">ປ່ຽນຮູບທີ 3</a>
+														<a href="<?= site_url('dashboard/changeimage3/' . $row->id_vehicle) ?>" class="text-center d-flex justify-content-center my-2">ປ່ຽນຮູບທີ 3</a>
 													</div>
 												</div>
 
 
 												<div class="form-group">
 													<div class="col-sm-4 text-center">
-													ຮູບພາບ 4: <br>
+														ຮູບພາບ 4: <br>
 														<img src="<?= base_url('back/img/vehicleimages/' . $row->Vimage4); ?>" width="300" class="img-fluid" height="200" style="border:solid 1px #000"><br>
-														<a href="<?= site_url('dashboard/changeimage4/' .$row->id_vehicle)?>" class="text-center d-flex justify-content-center my-2">ປ່ຽນຮູບທີ 4</a>
+														<a href="<?= site_url('dashboard/changeimage4/' . $row->id_vehicle) ?>" class="text-center d-flex justify-content-center my-2">ປ່ຽນຮູບທີ 4</a>
 													</div>
 													<div class="col-sm-4 text-center">
-													ຮູບພາບ 5: <br>
+														ຮູບພາບ 5: <br>
 
 														<img src="<?= base_url('back/img/vehicleimages/' . $row->Vimage5); ?>" width="300" class="img-fluid" height="200" style="border:solid 1px #000"><br>
-														<a href="<?= site_url('dashboard/changeimage5/' .$row->id_vehicle)?>" class="text-center d-flex justify-content-center my-2">ປ່ຽນຮູບທີ 5</a>
+														<a href="<?= site_url('dashboard/changeimage5/' . $row->id_vehicle) ?>" class="text-center d-flex justify-content-center my-2">ປ່ຽນຮູບທີ 5</a>
 
 													</div>
 
 												</div>
-												<div class="hr-dashed"></div>
+											<div class="hr-dashed"></div>
+											</div>
 									</div>
 								</div>
 							</div>
@@ -169,70 +170,71 @@
 							<div class="col-md-12">
 								<div class="panel panel-default">
 									<div class="panel-heading">ອຸປະກອນເສີມ</div>
-									<div class="panel-body">
+										<div class="panel-body">
 
 
-										<div class="form-group">
-											<div class="col-sm-3">
+											<div class="form-group">
+													<div class="col-sm-3">
 
-												<?php if ($row->AirConditioner == 1) { ?>
-													<div class="checkbox checkbox-inline">
-														<input type="checkbox" id="inlineCheckbox1" name="airconditioner" checked value="1">
-														<label for="inlineCheckbox1"> ເຄື່ອງ​ປັບ​ອາ​ກາດ </label>
+														<?php if ($row->AirConditioner == 1) { ?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="airconditioner" checked value="1">
+																<label for="inlineCheckbox1"> ເຄື່ອງ​ປັບ​ອາ​ກາດ </label>
+															</div>
+														<?php } else { ?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="airconditioner" value="1">
+																<label for="inlineCheckbox1"> ເຄື່ອງ​ປັບ​ອາ​ກາດ </label>
+															</div>
+														<?php } ?>
+
 													</div>
-												<?php } else { ?>
-													<div class="checkbox checkbox-inline">
-														<input type="checkbox" id="inlineCheckbox1" name="airconditioner" value="1">
-														<label for="inlineCheckbox1"> ເຄື່ອງ​ປັບ​ອາ​ກາດ </label>
-													</div>
-												<?php } ?>
+													<div class="col-sm-3">
 
-											</div>
-											<div class="col-sm-3">
+														<?php if ($row->PowerDoorLocks == 1) { ?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="powerdoorlocks" checked value="1">
+																<label for="inlineCheckbox2"> ລັອກປະຕູໄຟຟ້າ </label>
+															</div>
+														<?php } else { ?>
+															<div class="checkbox checkbox-success checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="powerdoorlocks" value="1">
+																<label for="inlineCheckbox2"> ລັອກປະຕູໄຟຟ້າ </label>
+															</div>
+														<?php } ?>
 
-												<?php if ($row->PowerDoorLocks == 1) { ?>
-													<div class="checkbox checkbox-inline">
-														<input type="checkbox" id="inlineCheckbox1" name="powerdoorlocks" checked value="1">
-														<label for="inlineCheckbox2"> ລັອກປະຕູໄຟຟ້າ </label>
 													</div>
-												<?php } else { ?>
-													<div class="checkbox checkbox-success checkbox-inline">
-														<input type="checkbox" id="inlineCheckbox1" name="powerdoorlocks" value="1">
-														<label for="inlineCheckbox2"> ລັອກປະຕູໄຟຟ້າ </label>
-													</div>
-												<?php } ?>
+													<div class="col-sm-3">
 
-											</div>
-											<div class="col-sm-3">
+														<?php if ($row->AntiLockBrakingSystem == 1) { ?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="antilockbrakingsys" checked value="1">
+																<label for="inlineCheckbox3"> ລະບົບເບກ AntiLock </label>
+															</div>
+														<?php } else { ?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="antilockbrakingsys" value="1">
+																<label for="inlineCheckbox3"> ລະບົບເບກ AntiLock </label>
+															</div>
+														<?php } ?>
 
-												<?php if ($row->AntiLockBrakingSystem == 1) { ?>
-													<div class="checkbox checkbox-inline">
-														<input type="checkbox" id="inlineCheckbox1" name="antilockbrakingsys" checked value="1">
-														<label for="inlineCheckbox3"> ລະບົບເບກ AntiLock </label>
 													</div>
-												<?php } else { ?>
-													<div class="checkbox checkbox-inline">
-														<input type="checkbox" id="inlineCheckbox1" name="antilockbrakingsys" value="1">
-														<label for="inlineCheckbox3"> ລະບົບເບກ AntiLock </label>
-													</div>
-												<?php } ?>
+													<div class="col-sm-3">
 
-											</div>
-											<div class="col-sm-3">
+														<?php if ($row->BrakeAssist == 1) {
+														?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="brakeassist" checked value="1">
+																<label for="inlineCheckbox3"> ເບກຊ່ວຍ </label>
+															</div>
+														<?php } else { ?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="brakeassist" value="1">
+																<label for="inlineCheckbox3"> ເບກຊ່ວຍ </label>
+															</div>
+														<?php } ?>
 
-												<?php if ($row->BrakeAssist == 1) {
-												?>
-													<div class="checkbox checkbox-inline">
-														<input type="checkbox" id="inlineCheckbox1" name="brakeassist" checked value="1">
-														<label for="inlineCheckbox3"> ເບກຊ່ວຍ </label>
-													</div>
-												<?php } else { ?>
-													<div class="checkbox checkbox-inline">
-														<input type="checkbox" id="inlineCheckbox1" name="brakeassist" value="1">
-														<label for="inlineCheckbox3"> ເບກຊ່ວຍ </label>
-													</div>
-												<?php } ?>
-
+											
 											</div>
 
 											<div class="form-group">
@@ -244,169 +246,168 @@
 															<label for="inlineCheckbox1"> ພວງມະໄລພະລັງງານ </label>
 														</div>
 													<?php } else { ?>
-														<div class="col-sm-3">
-															<div class="checkbox checkbox-inline">
-																<input type="checkbox" id="inlineCheckbox1" name="powersteering" value="1">
-																<label for="inlineCheckbox1"> ພວງມະໄລພະລັງງານ </label>
-															</div>
+
+														<div class="checkbox checkbox-inline">
+															<input type="checkbox" id="inlineCheckbox1" name="powersteering" value="1">
+															<label for="inlineCheckbox1"> ພວງມະໄລພະລັງງານ </label>
 														<?php } ?>
 														</div>
-														<div class="col-sm-3">
-
-															<?php if ($row->DriverAirbag == 1) {
-															?>
-																<div class="checkbox checkbox-inline">
-																	<input type="checkbox" id="inlineCheckbox1" name="driverairbag" checked value="1">
-																	<label for="inlineCheckbox2">ຖົງລົມນິລະໄພຄົນຂັບ</label>
-																</div>
-															<?php } else { ?>
-																<div class="checkbox checkbox-inline">
-																	<input type="checkbox" id="inlineCheckbox1" name="driverairbag" value="1">
-																	<label for="inlineCheckbox2">ຖົງລົມນິລະໄພຄົນຂັບ</label>
-																<?php } ?>
-																</div>
-																<div class="col-sm-3">
-
-																	<?php if ($row->PassengerAirbag == 1) {
-																	?>
-																		<div class="checkbox checkbox-inline">
-																			<input type="checkbox" id="inlineCheckbox1" name="passengerairbag" checked value="1">
-																			<label for="inlineCheckbox3"> ຖົງລົມນິລະໄພຜູ້ໂດຍສານ </label>
-																		</div>
-																	<?php } else { ?>
-																		<div class="checkbox checkbox-inline">
-																			<input type="checkbox" id="inlineCheckbox1" name="passengerairbag" value="1">
-																			<label for="inlineCheckbox3"> ຖົງລົມນິລະໄພຜູ້ໂດຍສານ </label>
-																		</div>
-																	<?php } ?>
-
-																</div>
-																<div class="col-sm-3">
-
-																	<?php if ($row->PowerWindows == 1) {
-																	?>
-																		<div class="checkbox checkbox-inline">
-																			<input type="checkbox" id="inlineCheckbox1" name="powerwindow" checked value="1">
-																			<label for="inlineCheckbox3"> ແວ່ນໄຟຟ້າ </label>
-																		</div>
-																	<?php } else { ?>
-																		<div class="checkbox checkbox-inline">
-																			<input type="checkbox" id="inlineCheckbox1" name="powerwindow" value="1">
-																			<label for="inlineCheckbox3"> ແວ່ນໄຟຟ້າ </label>
-																		</div>
-																	<?php } ?>
-
-																</div>
-
-
-																<div class="form-group">
-																	<div class="col-sm-3">
-
-																		<?php if ($row->CDPlayer == 1) {
-																		?>
-																			<div class="checkbox checkbox-inline">
-																				<input type="checkbox" id="inlineCheckbox1" name="cdplayer" checked value="1">
-																				<label for="inlineCheckbox1"> ເຄື່ອງ​ຫຼີ້ນ​ຊີ​ດີ </label>
-																			</div>
-																		<?php } else { ?>
-																			<div class="checkbox checkbox-inline">
-																				<input type="checkbox" id="inlineCheckbox1" name="cdplayer" value="1">
-																				<label for="inlineCheckbox1"> ເຄື່ອງ​ຫຼີ້ນ​ຊີ​ດີ </label>
-																			</div>
-																		<?php } ?>
-
-																	</div>
-																	<div class="col-sm-3">
-
-																		<?php if ($row->CentralLocking == 1) {
-																		?>
-																			<div class="checkbox  checkbox-inline">
-																				<input type="checkbox" id="inlineCheckbox1" name="centrallocking" checked value="1">
-																				<label for="inlineCheckbox2">ຕົວລັອກ Central</label>
-																			</div>
-																		<?php } else { ?>
-																			<div class="checkbox checkbox-success checkbox-inline">
-																				<input type="checkbox" id="inlineCheckbox1" name="centrallocking" value="1">
-																				<label for="inlineCheckbox2">ຕົວລັອກ Central</label>
-																			</div>
-																		<?php } ?>
-
-																	</div>
-																	<div class="col-sm-3">
-
-																		<?php if ($row->CrashSensor == 1) {
-																		?>
-																			<div class="checkbox checkbox-inline">
-																				<input type="checkbox" id="inlineCheckbox1" name="crashcensor" checked value="1">
-																				<label for="inlineCheckbox3"> ເຊັນເຊີການຂັດຂ້ອງ </label>
-																			</div>
-																		<?php } else { ?>
-																			<div class="checkbox checkbox-inline">
-																				<input type="checkbox" id="inlineCheckbox1" name="crashcensor" value="1">
-																				<label for="inlineCheckbox3"> ເຊັນເຊີການຂັດຂ້ອງ </label>
-																			</div>
-																		<?php } ?>
-
-																	</div>
-																	<div class="col-sm-3">
-
-																		<?php if ($row->LeatherSeats == 1) {
-																		?>
-																			<div class="checkbox checkbox-inline">
-																				<input type="checkbox" id="inlineCheckbox1" name="leatherseats" checked value="1">
-																				<label for="inlineCheckbox3"> ບ່ອນນັ່ງຫນັງ </label>
-																			</div>
-																		<?php } else { ?>
-																			<div class="checkbox checkbox-inline">
-																				<input type="checkbox" id="inlineCheckbox1" name="leatherseats" value="1">
-																				<label for="inlineCheckbox3"> ບ່ອນນັ່ງຫນັງ </label>
-																			</div>
-																		<?php } ?>
-																	</div>
-																</div>
-
-															<?php }
-
-
-															?>
-
-
-
-															<div class="form-group">
-																<div class="col-sm-8 col-sm-offset-2 text-center">
-
-																	<button class="btn btn-primary" name="submit" type="submit" style="margin-top:7%;margin-left: 50px;">ອັບເດດ</button>
-																</div>
-															</div>
-
-															</form>
-
-														</div>
 													</div>
+
+
+													<div class="col-sm-3">
+
+														<?php if ($row->DriverAirbag == 1) {
+														?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="driverairbag" checked value="1">
+																<label for="inlineCheckbox2">ຖົງລົມນິລະໄພຄົນຂັບ</label>
+															</div>
+														<?php } else { ?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="driverairbag" value="1">
+																<label for="inlineCheckbox2">ຖົງລົມນິລະໄພຄົນຂັບ</label>
+															<?php } ?>
+															</div>
+													</div>
+													<div class="col-sm-3">
+
+														<?php if ($row->PassengerAirbag == 1) {
+														?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="passengerairbag" checked value="1">
+																<label for="inlineCheckbox3"> ຖົງລົມນິລະໄພຜູ້ໂດຍສານ </label>
+															</div>
+														<?php } else { ?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="passengerairbag" value="1">
+																<label for="inlineCheckbox3"> ຖົງລົມນິລະໄພຜູ້ໂດຍສານ </label>
+															</div>
+														<?php } ?>
+
+													</div>
+													<div class="col-sm-3">
+
+														<?php if ($row->PowerWindows == 1) {
+														?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="powerwindow" checked value="1">
+																<label for="inlineCheckbox3"> ແວ່ນໄຟຟ້າ </label>
+															</div>
+														<?php } else { ?>
+															<div class="checkbox checkbox-inline">
+																<input type="checkbox" id="inlineCheckbox1" name="powerwindow" value="1">
+																<label for="inlineCheckbox3"> ແວ່ນໄຟຟ້າ </label>
+															</div>
+														<?php } ?>
+
+													</div>
+											
+
+											<div class="form-group">
+												<div class="col-sm-3">
+
+													<?php if ($row->CDPlayer == 1) {
+													?>
+														<div class="checkbox checkbox-inline">
+															<input type="checkbox" id="inlineCheckbox1" name="cdplayer" checked value="1">
+															<label for="inlineCheckbox1"> ເຄື່ອງ​ຫຼີ້ນ​ຊີ​ດີ </label>
+														</div>
+													<?php } else { ?>
+														<div class="checkbox checkbox-inline">
+															<input type="checkbox" id="inlineCheckbox1" name="cdplayer" value="1">
+															<label for="inlineCheckbox1"> ເຄື່ອງ​ຫຼີ້ນ​ຊີ​ດີ </label>
+														</div>
+													<?php } ?>
+
+												</div>
+												<div class="col-sm-3">
+
+													<?php if ($row->CentralLocking == 1) {
+													?>
+														<div class="checkbox  checkbox-inline">
+															<input type="checkbox" id="inlineCheckbox1" name="centrallocking" checked value="1">
+															<label for="inlineCheckbox2">ຕົວລັອກ Central</label>
+														</div>
+													<?php } else { ?>
+														<div class="checkbox checkbox-success checkbox-inline">
+															<input type="checkbox" id="inlineCheckbox1" name="centrallocking" value="1">
+															<label for="inlineCheckbox2">ຕົວລັອກ Central</label>
+														</div>
+													<?php } ?>
+
+												</div>
+												<div class="col-sm-3">
+
+													<?php if ($row->CrashSensor == 1) {
+													?>
+														<div class="checkbox checkbox-inline">
+															<input type="checkbox" id="inlineCheckbox1" name="crashcensor" checked value="1">
+															<label for="inlineCheckbox3"> ເຊັນເຊີການຂັດຂ້ອງ </label>
+														</div>
+													<?php } else { ?>
+														<div class="checkbox checkbox-inline">
+															<input type="checkbox" id="inlineCheckbox1" name="crashcensor" value="1">
+															<label for="inlineCheckbox3"> ເຊັນເຊີການຂັດຂ້ອງ </label>
+														</div>
+													<?php } ?>
+
+												</div>
+												<div class="col-sm-3">
+
+													<?php if ($row->LeatherSeats == 1) {
+													?>
+														<div class="checkbox checkbox-inline">
+															<input type="checkbox" id="inlineCheckbox1" name="leatherseats" checked value="1">
+															<label for="inlineCheckbox3"> ບ່ອນນັ່ງຫນັງ </label>
+														</div>
+													<?php } else { ?>
+														<div class="checkbox checkbox-inline">
+															<input type="checkbox" id="inlineCheckbox1" name="leatherseats" value="1">
+															<label for="inlineCheckbox3"> ບ່ອນນັ່ງຫນັງ </label>
+														</div>
+													<?php } ?>
+												</div>
+											</div>
+
+										<?php }
+
+
+										?>
+
+
+
+										<div class="form-group">
+											<div class="col-sm-8 col-sm-offset-2 text-center">
+
+												<button class="btn btn-primary" name="submit" type="submit" style="margin-top:7%;margin-left: 50px;">ອັບເດດ</button>
 											</div>
 										</div>
 
-
-
 									</div>
 								</div>
-
-
-
 							</div>
 						</div>
 					</div>
 
-					<!-- Loading Scripts -->
-					<script src="<?= site_url() ?>back/js/jquery.min.js"></script>
-					<script src="<?= site_url() ?>back/js/bootstrap-select.min.js"></script>
-					<script src="<?= site_url() ?>back/js/bootstrap.min.js"></script>
-					<script src="<?= site_url() ?>back/js/jquery.dataTables.min.js"></script>
-					<script src="<?= site_url() ?>back/js/dataTables.bootstrap.min.js"></script>
-					<script src="<?= site_url() ?>back/js/Chart.min.js"></script>
-					<script src="<?= site_url() ?>back/js/fileinput.js"></script>
-					<script src="<?= site_url() ?>back/js/chartData.js"></script>
-					<script src="<?= site_url() ?>back/js/main.js"></script>
+						</form>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Loading Scripts -->
+	<script src="<?= site_url() ?>back/js/jquery.min.js"></script>
+	<script src="<?= site_url() ?>back/js/bootstrap-select.min.js"></script>
+	<script src="<?= site_url() ?>back/js/bootstrap.min.js"></script>
+	<script src="<?= site_url() ?>back/js/jquery.dataTables.min.js"></script>
+	<script src="<?= site_url() ?>back/js/dataTables.bootstrap.min.js"></script>
+	<script src="<?= site_url() ?>back/js/Chart.min.js"></script>
+	<script src="<?= site_url() ?>back/js/fileinput.js"></script>
+	<script src="<?= site_url() ?>back/js/chartData.js"></script>
+	<script src="<?= site_url() ?>back/js/main.js"></script>
 </body>
 
 </html>
