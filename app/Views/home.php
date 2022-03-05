@@ -30,7 +30,9 @@
 <link rel="shortcut icon" href="<?= site_url()?>assets/images/favicon-icon/favicon.png">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao&display=swap" rel="stylesheet">
 </head>
+
 <body>
+
 
 <!-- Start Switcher -->
 <?php include('includes/colorswitcher.php');?>

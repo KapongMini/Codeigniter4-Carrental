@@ -178,14 +178,14 @@ class Home extends BaseController
       
         
         if(!$validation){
-            session()->setFlashdata('fail','ເຂົ້າສູ່ລະບົບລົ້ມເຫລວ');
+            session()->setFlashdata('fail','ມີບາງຢ່າງຜິດພາດ');
             session()->setFlashdata('fail_text','ກວດສອບວ່າຂໍ້ມູນຖືກຕ້ອງແລ້ວຫຼືບໍ');
             session()->setFlashdata('fail_icon','warning');
+            // echo "<script>alert('ມີບາງຢ່າງຜິດພາດ.');</script>"; 
          return view('home',['validation'=>$this->validator,'vehicles' =>$vehicles,'userdata' =>$userdata,'showtest'=>$showtest]);
         
 
-        }
-        else{
+        }else{
            
             $email = $this->request->getPost('Emailld');
             $password = $this->request->getPost('password');
@@ -202,7 +202,7 @@ class Home extends BaseController
                 $user_id = $user_info['id'];
                 session()->set('loggedUser',$user_id);
                 
-                return redirect()->back()->with('success','ເຂົ້າ​ສູ່​ລະ​ບົບ​ສໍາ​ເລັດ​')->with('success_icon','success');;
+                return redirect()->to('/')->with('success','ເຂົ້າ​ສູ່​ລະ​ບົບ​ສໍາ​ເລັດ​')->with('success_icon','success');;
                 // echo "login success";
             }
             
@@ -258,6 +258,7 @@ class Home extends BaseController
                 session()->setFlashdata('success_text','ທ່ານ​ເປັນ​ສະ​ມາ​ຊິກ​');
                 return redirect()->back()->with('success','ສະໝັກໄດ້ສຳເລັດແລ້ວ')
                 ->with('success_icon','success');
+                
                
             }
             
@@ -267,7 +268,35 @@ class Home extends BaseController
 
     public function forgot()
     {
-      echo "kuy";
+      $email = $this->request->getPost('email');
+      $ContactNo = $this->request->getPost('mobile');
+      $usermodel = new UserModel();
+      $query = $usermodel->forgottest($email,$ContactNo);
+      if(!$query){
+        return redirect()->back()->with('fail','ອີເມວ ຫຼື ເບີໂທບໍ່ຖືກຕ້ອງ');
+        
+      }else{
+       
+
+
+        $newpassword = $this->request->getPost('newpassword');
+        $cfpass = $this->request->getPost('confirmpassword');
+        $value =[
+          'Password'=>Hash::make($newpassword)
+      ];
+      $updatepassword = new UserModel();
+      $query = $updatepassword->Updation_Date($email,$ContactNo,Hash::make($newpassword));
+      if(!$query){
+        return redirect()->back()->with('fail','ມີບາງຢ່າງຜິດພາດ');
+
+       }else{
+        // echo "<script>alert('ທ່ານໄດ້ປ່ຽນລະຫັດສຳເລັດແລ້ວ ສາມາດເຂົ້າສູ່ລະບົບໄດ້.');</scrip>";
+        return redirect()->back()->with('success','ການກູ້ລະຫັດຜ່ານສຳເລັດແລ້ວ ເຂົ້າສູ່ລະບົບໄດ້.');
+       }
+     
+
+      }
+      
     }
 
  

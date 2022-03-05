@@ -559,8 +559,10 @@ li {
 }
 .brand .logo {
   box-sizing: border-box;
-  padding: 20px;
+  /* padding: 20px; */
   float: left;
+  margin-top: 10px;
+  margin-left: 15px;
   display: block;
   width: 200px;
 }

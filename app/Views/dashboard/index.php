@@ -144,7 +144,7 @@
 
 
 													<div class="stat-panel-number h1 "><?= $counttest ?></div>
-													<div class="stat-panel-title text-uppercase">ຂໍ້ຄວາມຮອງຮັບ</div>
+													<div class="stat-panel-title text-uppercase">ຂໍ້ຄວາມຕິຊົມຈາກຜູ້ໃຊ້</div>
 												</div>
 											</div>
 											<a href="<?= site_url('dashboard/manage_testimonial')?>" class="block-anchor panel-footer text-center">ລາຍລະອຽດ &nbsp; <i class="fa fa-arrow-right"></i></a>

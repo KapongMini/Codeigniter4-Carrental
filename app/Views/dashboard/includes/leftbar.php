@@ -19,7 +19,7 @@
 			</li>
 			<li><a href="<?= site_url('dashboard/manage_booking') ?>"><i class="fa fa-users"></i> ຈັດການ ການຈອງ</a></li>
 
-			<li><a href="<?= site_url('dashboard/manage_testimonial') ?>"><i class="fa fa-table"></i> ຈັດການ ຄຳຮອງຮັບ</a></li>
+			<li><a href="<?= site_url('dashboard/manage_testimonial') ?>"><i class="fa fa-table"></i> ຈັດການ ຄຳຕິຊົມ</a></li>
 			<li><a href="<?= site_url('dashboard/manage_contactquery') ?>"><i class="fa fa-desktop""></i> ຈັດການ ແບບສອບຖາມ</a></li>
 			<li><a href=" <?= site_url('dashboard/reg_users') ?>"><i class="fa fa-users"></i> ຈັດການ ບັນຊີຜູ້ໃຊ້</a></li>
 			<li><a href="#"><i class="fa fa-files-o"></i> ຈັດການ ໜ້າຕ່າງໆ</a>

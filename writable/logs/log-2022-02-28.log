@@ -1,0 +1,436 @@
+CRITICAL - 2022-02-28 09:02:03 --> Undefined index: brndid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:03:10 --> Undefined index: brndid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:03:11 --> Undefined index: brndid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:05:15 --> Undefined index: brndid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:07:38 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:07:38 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:07:39 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:09:29 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:10:24 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:10:25 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:10:45 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:10:48 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:10:58 --> Trying to get property 'bid' of non-object
+#0 D:\Book-py3\PHP\project\test2\app\Views\vehicle_details.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to get p...', 'D:\\Book-py3\\PHP...', 54, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('vehicle_details', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(39): view('vehicle_details', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-28 09:11:15 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Views\vehicle_details.php(54): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 54, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('vehicle_details', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(39): view('vehicle_details', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-28 09:11:49 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:19:36 --> Undefined variable: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:21:46 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:24:27 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(38): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 38, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:26:33 --> Undefined index: brndid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:26:55 --> Undefined index: brndid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:27:17 --> Undefined index: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(29): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'D:\\Book-py3\\PHP...', 29, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:28:24 --> Undefined variable: bid
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 09:28:36 --> Undefined variable: sml
+#0 D:\Book-py3\PHP\project\test2\app\Views\vehicle_details.php(263): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Book-py3\\PHP...', 263, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('vehicle_details', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(40): view('vehicle_details', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-28 09:55:39 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 D:\Book-py3\PHP\project\test2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Book-py3\\PHP...')
+#1 D:\Book-py3\PHP\project\test2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Vehi...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Vehi...')
+#3 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(24): spl_autoload_call('App\\Models\\Vehi...')
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+CRITICAL - 2022-02-28 09:56:02 --> Invalid argument supplied for foreach()
+#0 D:\Book-py3\PHP\project\test2\app\Views\vehicle_details.php(315): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'D:\\Book-py3\\PHP...', 315, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('vehicle_details', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(41): view('vehicle_details', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-02-28 10:08:38 --> Array to string conversion
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'D:\\Book-py3\\PHP...', 324, Array)
+#1 D:\Book-py3\PHP\project\test2\system\Database\Query.php(324): implode(',', Array)
+#2 D:\Book-py3\PHP\project\test2\system\Database\Query.php(304): CodeIgniter\Database\Query->matchNamedBinds('SELECT `v`.*, `...', Array)
+#3 D:\Book-py3\PHP\project\test2\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#4 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#5 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `v`.*, `...', Array, false)
+#6 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#7 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(32): App\Models\VehiclesModel->similar(Array)
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#9 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#10 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#13 {main}
+ERROR - 2022-02-28 10:13:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+CRITICAL - 2022-02-28 10:13:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `v`.*, `...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `v`.*, `...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `v`.*, `...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `v`.*, `...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(33): App\Models\VehiclesModel->similar(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-02-28 10:13:49 --> Trying to access array offset on value of type null
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Book-py3\\PHP...', 28, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 10:13:51 --> Trying to access array offset on value of type null
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(28): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Trying to acces...', 'D:\\Book-py3\\PHP...', 28, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+ERROR - 2022-02-28 10:17:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+CRITICAL - 2022-02-28 10:17:26 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ')' at line 4
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `v`.*, `...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `v`.*, `...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `v`.*, `...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `v`.*, `...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(33): App\Models\VehiclesModel->similar(Array)
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-02-28 10:18:16 --> Object of class stdClass could not be converted to string
+#0 D:\Book-py3\PHP\project\test2\system\Database\Query.php(324): implode(',', Array)
+#1 D:\Book-py3\PHP\project\test2\system\Database\Query.php(304): CodeIgniter\Database\Query->matchNamedBinds('SELECT `v`.*, `...', Array)
+#2 D:\Book-py3\PHP\project\test2\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `v`.*, `...', Array, false)
+#5 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(33): App\Models\VehiclesModel->similar(Array)
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#9 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#12 {main}
+ERROR - 2022-02-28 10:34:43 --> Unknown column 'b.id,b.Brands' in 'where clause'
+CRITICAL - 2022-02-28 10:34:43 --> Unknown column 'b.id,b.Brands' in 'where clause'
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `v`.*, `...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `v`.*, `...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `v`.*, `...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `v`.*, `...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(33): App\Models\VehiclesModel->similar()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-02-28 10:36:13 --> Unknown column 'bid' in 'where clause'
+CRITICAL - 2022-02-28 10:36:13 --> Unknown column 'bid' in 'where clause'
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `v`.*, `...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `v`.*, `...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `v`.*, `...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `v`.*, `...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(33): App\Models\VehiclesModel->similar()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-02-28 10:38:47 --> Unknown column 'bid' in 'where clause'
+CRITICAL - 2022-02-28 10:38:47 --> Unknown column 'bid' in 'where clause'
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `v`.*, `...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `v`.*, `...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `v`.*, `...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `v`.*, `...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(33): App\Models\VehiclesModel->similar()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-02-28 10:38:56 --> Unknown column 'bid' in 'where clause'
+CRITICAL - 2022-02-28 10:38:56 --> Unknown column 'bid' in 'where clause'
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `v`.*, `...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `v`.*, `...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `v`.*, `...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `v`.*, `...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(103): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(33): App\Models\VehiclesModel->similar()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-02-28 11:10:37 --> Undefined property: App\Controllers\Vdetails::$input
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('22')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 11:10:55 --> Undefined property: App\Controllers\Vdetails::$input
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('22')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 11:14:33 --> Undefined property: App\Controllers\Vdetails::$input
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('22')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 11:14:34 --> Undefined property: App\Controllers\Vdetails::$input
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('22')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 11:16:15 --> Undefined property: App\Controllers\Vdetails::$input
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('22')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 11:16:15 --> Undefined property: App\Controllers\Vdetails::$input
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('22')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 11:20:09 --> Undefined property: App\Controllers\Vdetails::$input
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('22')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 11:20:10 --> Undefined property: App\Controllers\Vdetails::$input
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('22')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 11:20:11 --> Undefined property: App\Controllers\Vdetails::$input
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('22')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 11:20:11 --> Undefined property: App\Controllers\Vdetails::$input
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('22')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-02-28 11:32:33 --> Undefined property: App\Controllers\Vdetails::$input
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(30): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'D:\\Book-py3\\PHP...', 30, Array)
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('23')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}

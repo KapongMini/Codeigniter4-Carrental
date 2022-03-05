@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="keywords" content="">
 <meta name="description" content="">
-<title>CarForYou - Responsive Car Dealer HTML5 Template</title>
+<title>Car Rental Portal | Contact Us</title>
 <!--Bootstrap -->
 <link rel="stylesheet" href="<?= site_url()?>assets/css/bootstrap.min.css" type="text/css">
 <!--Custome Style -->

@@ -1,0 +1,37 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    border-radius: 5px;
+  }
+  
+  .titlel {
+    color: grey;
+    font-size: 18px;
+  }
+  
+  .btnn {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+  
+  .acard {
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+  }
+  
+  .btnn:hover, a:hover {
+    opacity: 0.7;
+  }

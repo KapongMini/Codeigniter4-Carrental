@@ -1067,8 +1067,8 @@ nav.navbar {
 	3.1. Banner
 -------------------------------*/
 .banner-section {
-  background-image: url("../images/banner-image.jpg");
-  background-position: center center;
+  background-image: url("../images/bg6.jpg");
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
   padding: 160px 0;
@@ -4626,6 +4626,7 @@ h3 {
 }
 .listing_detail_head .price_info {
 	text-align:left;
+  
 }
 .listing_detail_head .price_info p {
   margin: 20px 0 0;

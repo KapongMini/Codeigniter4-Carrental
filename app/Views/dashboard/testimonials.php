@@ -42,7 +42,7 @@
 				<div class="row">
 					<div class="col-md-12">
 
-						<h2 class="page-title">ຈັດການ ຄຳຮອງຮັບ</h2>
+						<h2 class="page-title">ຈັດການ ຄຳຕິຊົມຈາກຜູ້ໃຊ້</h2>
 
 						<!-- Zero Configuration Table -->
 						<div class="panel panel-default">
@@ -86,8 +86,8 @@
 												<td><?= $value->Testimonial; ?></td>
 												<td><?= $value->PostingDate; ?></td>
 												<td>
-												<?php if($value->status==null || !$value->status==0) { ?>
-												<a href="<?= site_url('dashboard/manage_testimonial/inactive/' . $value->id) ?>" class="text-danger" onclick="return confirm('ທ່ານຕ້ອງການ Inactieve ແທ້ບໍ')"> ບໍ່ເຄື່ອນໄຫວ</a>
+												<?php if($value->status=="" || !$value->status==0) { ?>
+												<a href="<?= site_url('dashboard/manage_testimonial/inactive/' . $value->id) ?>" class="text-danger" onclick="return confirm('ທ່ານຕ້ອງການ Inactieve ແທ້ບໍ')"> ຍັງບໍ່ເຄື່ອນໄຫວ</a>
 												<?php } else {?>
 												<a href="<?= site_url('dashboard/manage_testimonial/active/' . $value->id) ?>" onclick="return confirm('ເຈົ້າຕ້ອງການ Actieve ແທ້ໆບໍ')"> ເຄື່ອນໄຫວ</a>
 												</td><?php } ?>

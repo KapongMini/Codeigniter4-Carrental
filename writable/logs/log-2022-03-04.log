@@ -1,0 +1,95 @@
+CRITICAL - 2022-03-04 08:49:50 --> Too few arguments to function CodeIgniter\Session\Session::set(), 0 passed in D:\Book-py3\PHP\project\test2\app\Views\vehicle_details.php on line 65 and at least 1 expected
+#0 D:\Book-py3\PHP\project\test2\app\Views\vehicle_details.php(65): CodeIgniter\Session\Session->set()
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('vehicle_details', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(46): view('vehicle_details', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
+CRITICAL - 2022-03-04 10:44:08 --> syntax error, unexpected '<'
+#0 D:\Book-py3\PHP\project\test2\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('D:\\Book-py3\\PHP...')
+#1 D:\Book-py3\PHP\project\test2\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(789): class_exists('\\App\\Controller...', true)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(397): CodeIgniter\CodeIgniter->startController()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#9 {main}
+CRITICAL - 2022-03-04 11:06:29 --> Invalid file: /.php
+#0 D:\Book-py3\PHP\project\test2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/.php')
+#1 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('/', Array, true)
+#2 D:\Book-py3\PHP\project\test2\app\Controllers\front\Home.php(185): view('/', Array)
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\front\Home->checkuser2()
+#4 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\front\Home))
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#8 {main}
+CRITICAL - 2022-03-04 21:06:00 --> Too few arguments to function App\Models\VehiclesModel::similar(), 0 passed in D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php on line 36 and exactly 1 expected
+#0 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(36): App\Models\VehiclesModel->similar()
+#1 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#2 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#3 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#6 {main}
+CRITICAL - 2022-03-04 21:07:56 --> Object of class App\Models\brandsModel could not be converted to string
+#0 D:\Book-py3\PHP\project\test2\system\Database\Query.php(330): strtr('SELECT `v`.*, `...', Array)
+#1 D:\Book-py3\PHP\project\test2\system\Database\Query.php(304): CodeIgniter\Database\Query->matchNamedBinds('SELECT `v`.*, `...', Array)
+#2 D:\Book-py3\PHP\project\test2\system\Database\Query.php(150): CodeIgniter\Database\Query->compileBinds()
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\Query->getQuery()
+#4 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `v`.*, `...', Array, false)
+#5 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(102): CodeIgniter\Database\BaseBuilder->get()
+#6 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(36): App\Models\VehiclesModel->similar(Object(App\Models\brandsModel))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#9 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#12 {main}
+ERROR - 2022-03-04 21:32:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_vehicle' at line 4
+CRITICAL - 2022-03-04 21:32:25 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ':id_vehicle' at line 4
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tblvehi...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblvehi...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblvehi...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `tblvehi...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(36): App\Models\VehiclesModel->similar2()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+ERROR - 2022-03-04 21:34:46 --> Unknown column 'tblbrands.id,tblbrands.Brands' in 'where clause'
+CRITICAL - 2022-03-04 21:34:46 --> Unknown column 'tblbrands.id,tblbrands.Brands' in 'where clause'
+#0 D:\Book-py3\PHP\project\test2\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `tblvehi...', 0)
+#1 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `tblvehi...')
+#2 D:\Book-py3\PHP\project\test2\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `tblvehi...')
+#3 D:\Book-py3\PHP\project\test2\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT `tblvehi...', Array, false)
+#4 D:\Book-py3\PHP\project\test2\app\Models\VehiclesModel.php(112): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(36): App\Models\VehiclesModel->similar2()
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('20')
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#8 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#11 {main}
+CRITICAL - 2022-03-04 21:43:13 --> Undefined variable: similar
+#0 D:\Book-py3\PHP\project\test2\app\Views\vehicle_details.php(324): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'D:\\Book-py3\\PHP...', 324, Array)
+#1 D:\Book-py3\PHP\project\test2\system\View\View.php(214): include('D:\\Book-py3\\PHP...')
+#2 D:\Book-py3\PHP\project\test2\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\Book-py3\PHP\project\test2\system\Common.php(1097): CodeIgniter\View\View->render('vehicle_details', Array, true)
+#4 D:\Book-py3\PHP\project\test2\app\Controllers\Vdetails.php(46): view('vehicle_details', Array)
+#5 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(824): App\Controllers\Vdetails->index('26')
+#6 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vdetails))
+#7 D:\Book-py3\PHP\project\test2\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Book-py3\PHP\project\test2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\Book-py3\PHP\project\test2\system\Commands\Server\rewrite.php(43): require_once('D:\\Book-py3\\PHP...')
+#10 {main}
