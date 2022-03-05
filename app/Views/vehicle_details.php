@@ -5,6 +5,7 @@
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width,initial-scale=1">
+  
   <meta name="keywords" content="">
   <meta name="description" content="">
   <title>Car Rental Port | Vehicle Details</title>
@@ -36,9 +37,10 @@
   <link rel="apple-touch-icon-precomposed" href="<?= site_url() ?>assets/images/favicon-icon/apple-touch-icon-57-precomposed.png">
   <link rel="shortcut icon" href="<?= site_url() ?>assets/images/favicon-icon/favicon.png">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Lao&display=swap" rel="stylesheet">
+  
 </head>
 
-<body>
+<body id="loaded">
 
   <!-- Start Switcher -->
   <?php include('includes/colorswitcher.php'); ?>
@@ -49,10 +51,21 @@
   <!-- /Header -->
 
   <!--Listing-Image-Slider-->
+  
   <?php
   foreach ($vehicles as $result) {
-
+    $session = session();
+    // $_SESSION['brndid']=$result->bid;
+     
+    $newdata = [
+      'brndid'  =>$result->bid
+      
+  ];
+  
+  $session->set($newdata);
+  
   ?>
+  
     <section id="listing_img_slider">
       <div><img src="<?= base_url('back/img/vehicleimages/' . $result->Vimage1); ?>" class="img-responsive" alt="image" width="900" height="560"></div>
       <div><img src="<?= base_url('back/img/vehicleimages/' . $result->Vimage2); ?>" class="img-responsive" alt="image" width="900" height="560"></div>
@@ -66,9 +79,8 @@
     </section>
     <!--/Listing-Image-Slider-->
 
-
     <!--Listing-detail-->
-    <section class="listing-detail">
+    <section class="listing-detail" >
       <div class="container">
         <div class="listing_detail_head row">
           <div class="col-md-9">
@@ -76,7 +88,8 @@
           </div>
           <div class="col-md-3">
             <div class="price_info">
-              <p>$<?= $result->PricePerDay; ?> </p>ຕໍ່​ມື້ 
+              <p>$<?= $result->PricePerDay; ?> </p><br>
+              <h5 style="color: grey;">ຕໍ່​ມື້</h5>
 
             </div>
           </div>
@@ -258,6 +271,7 @@
               </div>
 
             </div>
+            
           <?php } ?>
           </div>
 
@@ -272,14 +286,14 @@
                 <h5><i class="fa fa-envelope" aria-hidden="true"></i>ຈອງດຽວນີ້</h5>
               </div>
               <form method="post" action="<?= base_url('Vdetails/savebook') ?>">
-              <div class="form-group">
-                <input type="hidden" name="id_vehicle" value="<?= $result->id_vehicle; ?>" id="">
-              </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="fromdate" placeholder="ຈາກວັນທີ(ວ/ດ/ປ)" required>
+                  <input type="hidden" name="id_vehicle" value="<?= $result->id_vehicle; ?>" id="">
                 </div>
                 <div class="form-group">
-                  <input type="text" class="form-control" name="todate" placeholder="ເຖິງວັນທີ(ວ/ດ/ປ)" required>
+                  <input type="date" class="form-control" name="fromdate" placeholder="ຈາກວັນທີ(ວ/ດ/ປ)" required>
+                </div>
+                <div class="form-group">
+                  <input type="date" class="form-control" name="todate" placeholder="ເຖິງວັນທີ(ວ/ດ/ປ)" required>
                 </div>
                 <div class="form-group">
                   <textarea rows="4" class="form-control" name="message" placeholder="ຂໍ້ຄວາມ" required></textarea>
@@ -302,30 +316,31 @@
         <div class="divider"></div>
 
         <!--Similar-Cars-->
-        <div class="similar_cars">
+        <div class="similar_cars" >
           <h3>ລົດທີ່ຄ້າຍຄືກັນ</h3>
           <div class="row">
             <?php
-          foreach($similar as $sml)
-{ ?>   
-            <div class="col-md-3 grid_listing">
-              <div class="product-listing-m gray-bg">
-                <div class="product-listing-img"> <a href="<?= base_url('Vehicle_details/'.$sml->id_vehicle) ;?>"><img src="<?= base_url('back/img/vehicleimages/' . $sml->Vimage1); ?>" class="img-responsive" alt="image" /> </a>
-                </div>
-                <div class="product-listing-content">
-                  <h5><a href="<?= base_url('Vehicle_details/'.$sml->id_vehicle) ;?>"><?= $sml->Brands;?> , <?= $sml->VehiclesTitle;?> </a></h5>
-                  <p class="list-price">$<?= $sml->PricePerDay;?></p> / ມື້
 
-                  <ul class="features_list">
+            foreach ($similar as $sml) { ?>
+           
+              <div class="col-md-3 grid_listing">
+                <div class="product-listing-m gray-bg">
+                  <div class="product-listing-img"> <a href="<?= base_url('Vehicle_details/' . $sml->id_vehicle); ?>"><img src="<?= base_url('back/img/vehicleimages/' . $sml->Vimage1); ?>" class="img-responsive" alt="image" /> </a>
+                  </div>
+                  <div class="product-listing-content">
+                    <h5><a href="<?= base_url('Vehicle_details/' . $sml->id_vehicle); ?>"><?= $sml->Brands; ?> , <?= $sml->VehiclesTitle; ?> </a></h5>
+                    <p class="list-price">$<?= $sml->PricePerDay; ?></p> / ມື້
 
-                    <li><i class="fa fa-user" aria-hidden="true"></i><?= $sml->SeatingCapacity;?> ບ່ອນນັ່ງ</li>
-                    <li><i class="fa fa-calendar" aria-hidden="true"></i><?= $sml->ModelYear;?>model</li>
-                    <li><i class="fa fa-car" aria-hidden="true"></i><?= $sml->FuelType;?></li>
-                  </ul>
+                    <ul class="features_list">
+
+                      <li><i class="fa fa-user" aria-hidden="true"></i><?= $sml->SeatingCapacity; ?> ບ່ອນນັ່ງ</li>
+                      <li><i class="fa fa-calendar" aria-hidden="true"></i><?= $sml->ModelYear; ?> model</li>
+                      <li><i class="fa fa-car" aria-hidden="true"></i><?= $sml->FuelType; ?></li>
+                    </ul>
+                  </div>
                 </div>
               </div>
-            </div>
-            <?php } ?>  
+            <?php }  ?>
 
           </div>
         </div>
@@ -364,35 +379,42 @@
     <script src="<?= site_url() ?>assets/js/owl.carousel.min.js"></script>
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
     <script>
-  $(document).ready(function(){
-   
-    <?php if(!empty(session()->getFlashdata('success'))) :?>
-      swal({
-  title: "<?= session()->getFlashdata('success') ;?>",
-  text: "<?= session()->getFlashdata('success_text') ;?>",
-  icon: "<?= session()->getFlashdata('success_icon') ;?>",
-  button: "Ok",
-});
+      $(document).ready(function() {
 
-    <?php endif; ?>
+        <?php if (!empty(session()->getFlashdata('success'))) : ?>
+          swal({
+            title: "<?= session()->getFlashdata('success'); ?>",
+            text: "<?= session()->getFlashdata('success_text'); ?>",
+            icon: "<?= session()->getFlashdata('success_icon'); ?>",
+            button: "Ok",
+          });
 
-  });
-</script>
-<script>
-  $(document).ready(function(){
-   
-    <?php if(!empty(session()->getFlashdata('fail'))) :?>
-      swal({
-  title: "<?= session()->getFlashdata('fail') ;?>",
-  text: "<?= session()->getFlashdata('fail_text') ;?>",
-  icon: "<?= session()->getFlashdata('fail_icon') ;?>",
-  button: "Ok",
-});
+        <?php endif; ?>
 
-    <?php endif; ?>
+      });
+    </script>
+    <script>
+      $(document).ready(function() {
 
-  });
-</script>
+        <?php if (!empty(session()->getFlashdata('fail'))) : ?>
+          swal({
+            title: "<?= session()->getFlashdata('fail'); ?>",
+            text: "<?= session()->getFlashdata('fail_text'); ?>",
+            icon: "<?= session()->getFlashdata('fail_icon'); ?>",
+            button: "Ok",
+          });
+
+        <?php endif; ?>
+
+      });
+    </script>
+ <script>
+
+   if (window.location.href.indexOf('reload')==-1) {
+     window.location.replace(window.location.href+'?reload');
+}
+
+ </script>
 
 
 </body>

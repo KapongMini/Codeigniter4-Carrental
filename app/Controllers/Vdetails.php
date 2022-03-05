@@ -16,21 +16,23 @@ class Vdetails extends BaseController
     {
         
         helper(['url','form']);
+        
     }
     public function index($id_vehicle)
     {
         
+        $session = session();
         
         $usermodel = new UserModel();
         $Vehiclesmodel= new VehiclesModel();
         $brand = new brandsModel();
         $loggedUserID = session()->get('loggedUser');
-        
-        
+       
         $vehicles = $Vehiclesmodel->vdetails($id_vehicle);
        
         // $_SESSION['brndid'] = $this->request->getpost('bid') ;
-        $bid = $_SESSION['brndid'] ;
+        $bid = $session->get('brndid');
+        // $bid = $session->brndid;
         $similar = $Vehiclesmodel->similar($bid);
         
         $userdata = $usermodel->find($loggedUserID);
@@ -38,7 +40,7 @@ class Vdetails extends BaseController
             'tital' => 'Vehicle_detail',
             'userdata' =>$userdata,
             'vehicles' =>$vehicles,
-            'similar'=>$similar,
+            'similar'=> $similar,
            
         ];
         return view('vehicle_details',$data);

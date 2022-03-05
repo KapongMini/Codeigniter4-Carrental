@@ -42,7 +42,7 @@ class VehiclesModel extends Model
     $builder = $this->db->table("tblvehicles");
     // $builder->select('tblvehicles.*,tblbrands.Brands,tblbrands.id as bid');
     $builder->join('tblbrands', 'tblbrands.id=tblvehicles.VehiclesBrand');
-    // $builder->where('tblvehicles.id_vehicle=:id_vehicle');
+    
     $query = $builder->get();
     return $query->getResult();
   }
@@ -80,6 +80,7 @@ class VehiclesModel extends Model
 
   public function vdetails($id_vehicle)
   {
+  
     $builder = $this->db->table("tblvehicles");
 
     $builder->select('tblvehicles.*,tblbrands.Brands,tblbrands.id as bid');
@@ -92,26 +93,17 @@ class VehiclesModel extends Model
   
   public function similar($bid)
   {
-    $builder = $this->db->table("tblvehicles as v");
     
-
+    $builder = $this->db->table("tblvehicles as v");
     $builder->select('v.*,v.VehiclesTitle,b.Brands,v.PricePerDay,v.FuelType,v.ModelYear,v.id_vehicle,v.SeatingCapacity,v.VehiclesOverview,v.Vimage1');
     // $builder->from('tblvehicles');
     $builder->join('tblbrands as b', 'b.id=v.VehiclesBrand');
     $builder->where('v.VehiclesBrand',$bid);
-    
     $query = $builder->get();
     return $query->getResult();
-    // $query = $builder->get();
-        
-    //     if(count($query->getResultArray()) > 0){
-    //         return $query->getRow();
-    //     }
-    //     else
-    //     {
-    //         return false;
-    //     }
+    
   }
+  
   public function countrow()
   {
     // $query = $this->db->get('tblvehicles');
